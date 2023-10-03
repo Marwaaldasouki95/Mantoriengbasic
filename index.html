@@ -3,15 +3,41 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" >
-        <title>Marwas erster Basic teil</title>
+        <title>Facebook Clone</title>
+        <link rel="stylesheet" href="./css/style.css">
+<style>
+    /* internal styling - hier kommt styling rein*/
+</style>
     </head>
-    <body>
+    <!-- inline Styling in <body> -->
+    <body style="background-color: lightgrey; margin: 0px">
         <!-- Semantic HTML https://learntheweb.courses/topics/html-semantics-cheat-sheet/ -->
 
-        <header><!--static content-->
-            <nav>
-                <!-- declares Navigation Wrapper -->
+        <header id="headerStyling"><!--static content-->
+            <div id="logoSearch">
+               <img class="logo" src="./assets/icons/facebook.png">
+               <p>suchen</p>
+            </div>
+            <nav id="navigation">
+                <ul class="navigationInner">
+                    <li><img class="navIcon" src="./assets/icons/house.png"></li>
+                    <li><img class="navIcon" src="./assets/icons/friends.png"></li>
+                    <li><img class="navIcon" src="./assets/icons/video.png"></li>
+                    <li><img class="navIcon" src="./assets/icons/console.png" ></li>
+                </ul><!-- declares Navigation Wrapper -->
             </nav>
+
+            <div id="communication"><!--parent // child-->
+                <p>icon</p><!--child-->
+                <p>msg</p><!--child-->
+                <p>notif</p><!--child-->
+                <p>img</p><!--child-->
+            </div>
+
+
+
+
+
         </header>
 
         <main>
