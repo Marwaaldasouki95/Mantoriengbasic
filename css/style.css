@@ -1,0 +1,44 @@
+/* External Styling*/
+
+#headerStyling{
+    background-color:white;  
+    color: red; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#logoSearch{
+    border: 1px solid blue;
+    display: flex;
+    max-height: 100px;
+    flex-grow: 2
+
+}
+
+#navigation{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.navigationInner{
+    width: 100%;
+    display: flex;
+}
+
+.navIcon{
+    width: 20%  
+}
+
+#communication{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    width: 40%;
+
+}
