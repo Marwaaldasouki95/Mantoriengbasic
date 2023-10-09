@@ -42,3 +42,50 @@
     width: 40%;
 
 }
+
+/* About me page*/
+
+.mainInner{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#streamWrapper{
+    width: 60%;
+    outline: 1px solid green;
+
+    
+}
+
+p{
+    border: 1px solid blue
+}
+
+h2{
+    border: 1px solid black;
+    text-align: center
+}
+
+.navListSides{
+    border: 1px solid green;
+    padding: 0
+}
+
+.navListSides a{
+    text-decoration: none;
+    color: black
+}
+
+/*pseudo classes*/
+
+.navListSides a:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navListSides a li{
+    list-style-type: none;
+}
