@@ -1,0 +1,27 @@
+VERBINDEN VON LOKALER REPO MIT REMOTE REPO AUF GITHUB
+source: https://youtu.be/uGLQF2kUwOA?si=Riw9R-GOqb3fyqAM
+
+IN GITHUB folgende Schritte machen....
+
+1. Dein Profil öffnen
+2. oben rechts auf das + Icon drücken und eine NEUE REPO erstellen
+3. passenden NAMEN FÜR DIE REPO aussuchen (TIP: am Besten den gleichen Namen nehmen, der lokal auch verwendet wird) => dann einfach auf ERSTELLEN drücken (die anderen Felder überspringen)
+
+Wenn die Repo gebaut wurde, erscheint die Repo mit möglichen Verbindungsoptionen...
+
+Wir nehmen die option REPO MIT bestehender lokaler repo verbinden..
+
+
+
+schritte in der lokalen Repo
+1. Den Ordner, der in der mit der remote Repo verbunden werden soll, MUSS erst eine GIT REPO werden. Dazu folgende Schritte...
+    1. Ordner mit VSC öffnen
+    2. in VSC ein Terminal aufmachen
+    3. Überprüfen, ob der ordner schon eine GIT ist (dazu einfach den Befehl GIT STATUS aufrufen)
+2. Wenn es noch keine Repo ist, dann einfach GIT INIT aufrufen...
+3. mit GIT CHECKOUT -B main eine neue "main" (klein schreiben) branch erstellen
+3. Dann gleich git status aufrufen... dann mit "GIT ADD ." einfach alle Dateien hinzufügen.
+4. dann "GIT COMMIT -M <TEXT>" das erste Commit schreiben.
+5. git push origin main => mit diesem Befehl werden die lokalen Dateien nach GITHUB geschoben...
+
+Fertig

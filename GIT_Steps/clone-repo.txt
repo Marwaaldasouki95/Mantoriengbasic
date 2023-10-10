@@ -1,0 +1,17 @@
+CLONE einer REPO
+source: https://youtu.be/uGLQF2kUwOA?si=Riw9R-GOqb3fyqAM
+
+IN GITHUB folgende Schritte machen:
+1. WebAdresse der REPO finden (https://github.com/Marwaaldasouki95/ )
+2. auf den GRÜNEN Button drücken und die GIT REPO URL kopieren (https://github.com/Marwaaldasouki95/Mantoriengbasic.git)
+3. zum VISUAL STUDIO CODE wechseln.....
+
+
+IN VISUAL STUDIO CODE folgende Schritte machen...
+1. bei VISUAL STUDIO CODE ein neues Fenster öffnen ( FILE -> NEW WINDOW)
+2. In dem neuen WINDOW auf den Link CLONE GIT REPOSITORY drücken...
+4. Einfügen der Oben kopierten URL in das VSC feld
+5. in dem FINDER nach dem gewünschten Speicherort suchen.
+
+Dann enter drücken.....Fertig...
+Die Repo ist auf deinem Rechner verfügbar. 
