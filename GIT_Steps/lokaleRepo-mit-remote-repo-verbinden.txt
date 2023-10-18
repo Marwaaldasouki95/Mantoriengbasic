@@ -11,8 +11,6 @@ Wenn die Repo gebaut wurde, erscheint die Repo mit möglichen Verbindungsoptione
 
 Wir nehmen die option REPO MIT bestehender lokaler repo verbinden..
 
-
-
 schritte in der lokalen Repo
 1. Den Ordner, der in der mit der remote Repo verbunden werden soll, MUSS erst eine GIT REPO werden. Dazu folgende Schritte...
     1. Ordner mit VSC öffnen
